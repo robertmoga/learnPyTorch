@@ -1,2 +1,12 @@
 **/.idea
 **/.datasets
+/datasets/flowers/test/*.jpg
+/datasets/flowers/train/1/*.jpg
+/datasets/flowers/train/*.jpg
+/datasets/flowers/train_/daisy/*.jpg
+/datasets/flowers/train_/dandelion/*.jpg
+/datasets/flowers/train_/dandelion/*.py
+/datasets/flowers/train_/dandelion/*.pyc
+/datasets/flowers/train_/rose/*.jpg
+/datasets/flowers/train_/sunflower/*.jpg
+/datasets/flowers/train_/tulip/*.jpg

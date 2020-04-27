@@ -1,3 +1,6 @@
+import os 
+import torch
+
 def check_mem():
     # replace with the path of current's sistem gpu management interface 
     mem = os.popen('"C:\\Program Files\\NVIDIA Corporation\\NVSMI\\nvidia-smi" --query-gpu=memory.total,memory.used --format=csv,nounits,noheader').read().split(",")
@@ -22,3 +25,4 @@ def reserve_gpu_memory(allocated_percent):
 
 if __name__ == "__main__":
     reserve_gpu_memory(0.8) # allocates 80% of available memory for CUDA
+    print(check_mem())
